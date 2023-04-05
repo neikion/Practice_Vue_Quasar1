@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          <q-btn to="/" label="Quasar App" class="text-subtitle1" unelevated/>
         </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
