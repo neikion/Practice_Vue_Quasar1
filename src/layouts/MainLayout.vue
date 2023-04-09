@@ -51,10 +51,16 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksList = [
   {
-    title: 'case 1',
+    title: 'case 1 기본 문법',
     caption: 'case1 dev',
-    icon: 'code',
+    icon: 'school',
     link: '/case1'
+  },
+  {
+    title: 'case 2 Shopping List',
+    caption: 'vue 실습 1',
+    icon: 'code',
+    link: '/shop'
   }
 ]
 
