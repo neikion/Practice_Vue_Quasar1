@@ -67,6 +67,12 @@ const linksList = [
     caption: 'vue + store 실습',
     icon: 'home',
     link: '/todo'
+  },
+  {
+    title: 'case 4 DbTodo',
+    caption: 'vue + database 실습',
+    icon: 'chat',
+    link: '/dbtodo'
   }
 ]
 
