@@ -3,7 +3,7 @@
         <q-card class="q-dialog-plugin">
         <q-card-section>
             <div class="text-h6">내용 수정</div>
-            <div class="text-subtitle2"> {{editTask.id}} </div>
+            <div class="text-subtitle2"> {{editTask.seq}} </div>
         </q-card-section>
         <q-card-section>
             <q-input
