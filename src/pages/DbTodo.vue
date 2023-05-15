@@ -127,7 +127,7 @@
             async fetchData() {
                 const len = 5;
                 const lastId = this.tasks.length
-                    ? this.tasks[this.tasks.length - 1].id
+                    ? this.tasks[this.tasks.length - 1].seq
                     : 0;
                 if (this.tasks.length > 0 && this.tasks.length == this.totalCount) {
                     console.log("fetchData 호출안함", this.tasks.length, this.totalCount);
@@ -174,7 +174,7 @@
 
             //삭제
             async removeDbItem(item) {
-                const idx = this.tasks.findIndex((task) => task.id == item.id);
+                const idx = this.tasks.findIndex((task) => task.seq == item.seq);
                 //삭제 array.splice(시작 index, 제거 index, 추가 요소)
                 this.tasks.splice(idx, 1);
                 const result = await todoApi.remove(item);
